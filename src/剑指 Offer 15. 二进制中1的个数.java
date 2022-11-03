@@ -1,0 +1,19 @@
+public class Solution {
+    // you need to treat n as an unsigned value
+    public int hammingWeight(int n) {
+        String s = Integer.toBinaryString(n);
+        
+        int res = 0;
+        for (int i = 0; i < s.length(); i++) {
+            if (s.charAt(i) == '1') {
+                res++;
+            }
+        }
+
+        return res;
+        /* 
+        * 或者直接使用库函数
+        * return Integer.bitCount(n); 
+        */
+    }
+}
