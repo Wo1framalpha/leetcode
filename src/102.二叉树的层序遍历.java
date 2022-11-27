@@ -3,8 +3,6 @@ import java.util.Deque;
 import java.util.LinkedList;
 import java.util.List;
 
-import javax.swing.tree.TreeNode;
-
 /*
  * @lc app=leetcode.cn id=102 lang=java
  *

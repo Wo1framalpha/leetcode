@@ -1,6 +1,5 @@
 import java.util.Deque;
 
-import javax.swing.tree.TreeNode;
 
 /*
  * @lc app=leetcode.cn id=103 lang=java
